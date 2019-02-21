@@ -1,14 +1,10 @@
+
 <?php
-
-$media=7.5;
-$frequencia=0.75;
-
-if ($media>=6 && $frequencia>=0.75){
-    echo "<strong>Aprovado</strong>";
-}else{
-    echo "<strong>Reprovado</strong>";
-}
-
+    $vetor=array();
+    for ($i=0;$i<=50;$i++){
+        $vetor[$i]=42;
+        echo "Vetor ".$i." = ".$vetor[$i]."<br>";
+    }
 ?>
 
 
